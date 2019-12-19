@@ -12,11 +12,11 @@ The issue seems to be affecting 5.3 kernel as well. But it's a lot easier to rep
 
 {{ page.categories[0] }}.
 
-A fixing patch has been applied on mainline Kernel, version 5.5rc. But the patch has not been backported to 5.4 yet. And the patch can't be cleanly backported to 5.4 according to Arch Linux developers.
+A fixing patch has been applied on mainline kernel, version 5.5rc. But the patch has not been backported to 5.4 yet. And the patch can't be cleanly backported to 5.4 according to Arch Linux developers.
 
 ## Workaround
 
-- Downgrade Kernel to < 5.4
+- Downgrade kernel to < 5.4
 
 ## Tracked elsewhere
 

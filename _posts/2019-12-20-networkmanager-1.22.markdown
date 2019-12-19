@@ -16,7 +16,7 @@ As seen on Reddit: <https://redd.it/ecjiqb>.
 
 - Switch to [a different network manager][diff-nm] (e.g. systemd-networkd)
 - Downgrade NetworkManager to 1.20
-- Downgrade Kernel to < 5.4
+- Downgrade kernel to < 5.4
 
 ## Tracked elsewhere
 
