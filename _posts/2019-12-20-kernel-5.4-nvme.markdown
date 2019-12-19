@@ -1,0 +1,21 @@
+---
+layout: post
+title: Kernel 5.4 Can't Read NVMe Partitions
+categories: Broken
+---
+
+Strike three for 5.4 Kernel: it won't read the partitions of some NVMe drives that do not strictly adhere to the NVMe specification.
+
+## State
+
+{{ page.categories[0] }}.
+
+A fixing patch has landed in 5.5-rc2 and will be backported to 5.4. Just wait.
+
+## Workarounds
+
+- Downgrade Kernel to < 5.4
+
+## Tracked elsewhere
+
+- Kernel.org: <https://bugzilla.kernel.org/show_bug.cgi?id=205679>

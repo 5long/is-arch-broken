@@ -1,0 +1,26 @@
+---
+layout: post
+title: i915 GPU hangs with 5.4 Kernel
+categories: Broken
+---
+
+Another oopsie from Intel with 5.4 kernel: Intel iGPU could hang for no clear reason, leaving user a frozen computer.
+
+The issue seems to be affecting 5.3 kernel as well. But it's a lot easier to reproduce since 5.4.
+
+## State
+
+{{ page.categories[0] }}.
+
+A fixing patch has been applied on mainline Kernel, version 5.5rc. But the patch has not been backported to 5.4 yet. And the patch can't be cleanly backported to 5.4 according to Arch Linux developers.
+
+## Workaround
+
+- Downgrade Kernel to < 5.4
+
+## Tracked elsewhere
+
+- drm/intel: <http://gitlab.freedesktop.org/drm/intel/issues/673>
+- Arch Linux: [FS#64725]
+
+[FS#64725]: https://bugs.archlinux.org/task/64725

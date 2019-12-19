@@ -1,0 +1,27 @@
+---
+layout: post
+title: iwlwifi with 5.4 Kernel
+categories: Broken
+---
+
+The Kernel 5.4 release makes iwlwifi module crash for various models of Intel WiFi NIC. The WiFi NIC is missing from `ip link`.
+
+Some users are lucky enough not to experience any issues. You may or may not be a lucky one.
+
+## State
+
+{{ page.categories[0] }}.
+
+## Workarounds
+
+- Remove the `lar_disable=1` module parameter if it is present
+- Downgrade Kernel to < 5.4
+
+## Tracked elsewhere
+
+- Kernel.org: [#205749], [#205695]
+- Arch Linux: [FS#64703]
+
+[#205749]: https://bugzilla.kernel.org/show_bug.cgi?id=205749
+[#205695]: https://bugzilla.kernel.org/show_bug.cgi?id=205695
+[FS#64703]: https://bugs.archlinux.org/task/64703
