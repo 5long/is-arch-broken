@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: /about.html
 ---
 
 [Arch Linux] is a [rolling release] Linux distro. It delivers the
