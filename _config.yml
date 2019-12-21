@@ -12,6 +12,8 @@ url: "https://5long.github.io" # the base hostname & protocol for your site, e.g
 twitter_username: 5long
 github_username:  5long
 
+permalink: /:title:output_ext
+
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/jekyll-theme-basically-basic
