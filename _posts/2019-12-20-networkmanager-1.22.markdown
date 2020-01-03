@@ -1,7 +1,7 @@
 ---
 layout: post
 title: NetworkManager 1.22
-categories: Broken
+categories: Fixed
 ---
 
 After upgrading NetworkManager to 1.22, some users can no longer connect to the network. NICs managed by NetworkManager would constantly switch between the states of connected and disconnected, or simply refuse to connect.
@@ -10,7 +10,7 @@ As seen on Reddit: <https://redd.it/ecjiqb>.
 
 ## State
 
-{{ page.categories[0] }}.
+Should be fixed since 1.22.2.
 
 ## Workarounds
 
